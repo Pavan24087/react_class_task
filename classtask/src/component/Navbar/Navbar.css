@@ -1,0 +1,28 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+}
+#nav_right{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#nav_right>span{
+    border: 1px solid black;
+    background-color: lightpink;
+    border-style: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#nav_right>span:hover{
+    color: red;
+}
+#nav_left{
+    padding-left: 20px;
+    font-family: sans-serif;
+}
